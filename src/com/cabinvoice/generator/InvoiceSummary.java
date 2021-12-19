@@ -1,6 +1,9 @@
 package com.cabinvoice.generator;
 
 public class InvoiceSummary {
+
+	/**** STEP-3 :- Enhanced Invoice. ****/
+
 	/** Private Constant Variables. **/
 	private final int NUM_OF_RIDES;
 	private final double TOTAL_FARE;

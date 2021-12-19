@@ -29,10 +29,11 @@ public class InvoiceGeneratorTest {
 		Assertions.assertEquals(fare, 5);
 	}
 
+	/** STEP-2:- Multiple Rides. **/
 	@Test
 	public void givenMultipleRides_shouldReturnInvoiceSummary() {
 		Ride[] rides = { new Ride(2.0, 5), new Ride(0.3, 2) };
-		
+
 		InvoiceSummary invoiceSummary = invoiceGenerator.calculateFare(rides);
 		InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 30);
 		Assertions.assertEquals(expectedInvoiceSummary, invoiceSummary);
