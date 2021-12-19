@@ -6,8 +6,8 @@ public class Ride {
 	public final int TIME;
 
 	/** Parameterized Constructor. **/
-	public Ride(double dISTANCE, int tIME) {
-		DISTANCE = dISTANCE;
-		TIME = tIME;
+	public Ride(double DISTANCE, int TIME) {
+		this.DISTANCE = DISTANCE;
+		this.TIME = TIME;
 	}
 }

@@ -10,9 +10,9 @@ public class InvoiceSummary {
 	private final double AVERAGE_FARE;
 
 	/** Parameterized Constructor **/
-	public InvoiceSummary(int nUM_OF_RIDES, double tOTAL_FARE) {
-		NUM_OF_RIDES = nUM_OF_RIDES;
-		TOTAL_FARE = tOTAL_FARE;
+	public InvoiceSummary(int NUM_OF_RIDES, double TOTAL_FARE) {
+		this.NUM_OF_RIDES = NUM_OF_RIDES;
+		this.TOTAL_FARE = TOTAL_FARE;
 		AVERAGE_FARE = this.TOTAL_FARE / this.NUM_OF_RIDES;
 	}
 
