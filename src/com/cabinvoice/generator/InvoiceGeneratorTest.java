@@ -18,10 +18,14 @@ public class InvoiceGeneratorTest {
 	}
 
 	@Test
-	public void givenDistanceTime_ShouldReturnFare() {
-		double distance = 2.0;
-		int time = 5;
-		double fare = invoiceGenerator.calculateFare(distance, time);
+	public void givenDistanceTime_shouldReturnFare() {
+		double fare = invoiceGenerator.calculateFare(2.0, 5);
 		Assertions.assertEquals(fare, 25);
+	}
+	
+	@Test
+	public void givenDistanceTime_shouldReturn_minimumFare() {
+		double fare = invoiceGenerator.calculateFare(0.2, 1);
+		Assertions.assertEquals(fare, 5);
 	}
 }
