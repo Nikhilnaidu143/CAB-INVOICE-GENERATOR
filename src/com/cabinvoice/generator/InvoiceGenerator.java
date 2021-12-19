@@ -1,7 +1,6 @@
 package com.cabinvoice.generator;
 
 public class InvoiceGenerator {
-
 	/** Constant variables. **/
 	public final double COST_PER_KILOMETER = 10.0;
 	public final int COST_PER_MINUTE = 1;

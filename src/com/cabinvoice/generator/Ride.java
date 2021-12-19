@@ -1,6 +1,7 @@
 package com.cabinvoice.generator;
 
 public class Ride {
+	
 	/** Constant Variables. **/
 	public final double DISTANCE;
 	public final int TIME;

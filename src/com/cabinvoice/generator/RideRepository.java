@@ -6,6 +6,7 @@ public class RideRepository {
 	
 	/*** STEP-4 :- Invoice service. **/
 	
+	/** Constants. **/
 	private final HashMap<Integer , Ride[]> RIDE_REPOSITORY;
 	private final Integer USER_ID;
 	

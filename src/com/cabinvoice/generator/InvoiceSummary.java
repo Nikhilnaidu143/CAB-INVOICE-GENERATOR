@@ -16,6 +16,7 @@ public class InvoiceSummary {
 		AVERAGE_FARE = this.TOTAL_FARE / this.NUM_OF_RIDES;
 	}
 
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this.NUM_OF_RIDES == 0)
